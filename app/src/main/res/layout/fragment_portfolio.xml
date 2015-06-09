@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E5FC" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nanodegree"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify"
+            android:id="@+id/spotify"/>
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:id="@+id/scores"/>
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:id="@+id/library"/>
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buildBigger"
+            android:id="@+id/buildBigger"/>
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reader"
+            android:id="@+id/reader"/>
+
+        <Button
+            style="@style/udacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:text="@string/capstone"
+            android:textColor="#FFFFFF"
+            android:id="@+id/capstone"/>
+
+    </LinearLayout>
+
+</ScrollView>
